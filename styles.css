@@ -13,17 +13,16 @@
 body {
   font-family: "Outfit", sans-serif;
   background-color: var(--light-grey);
-  height: 100vh;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  margin-top: 152px;
 }
 
 .card {
   width: 320px;
   height: 497px;
-  /* border: 2px solid lime; */
   border-radius: 20px;
   background-color: var(--white);
   text-align: center;
@@ -45,7 +44,6 @@ body {
   color: var(--dark-blue);
   font-size: 22px;
   margin-bottom: 16px;
-  /* line-height: 16px; */
 }
 
 .card p {
@@ -53,21 +51,26 @@ body {
   font-size: 15px;
   font-weight: 300;
   width: 256px;
-  /* margin-top: 16px; */
-  /* padding: 16px; */
-  /* padding-bottom: 40px; */
+  padding: 0 12px;
 }
 
 h2 {
-  color: hsl(220, 15%, 55%);
-  color: hsl(218, 44%, 22%);
+  color: var(--grayish-blue);
+  color: var(--dark-blue);
 }
 
 .attribution {
-  font-size: 11px;
+  margin: 4rem 0;
+  font-size: 15px;
   text-align: center;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 667px) {
+  body {
+    margin-top: 85px;
+  }
 }
