@@ -32,7 +32,7 @@ body {
 .card img {
   height: 288px;
   width: 288px;
-  padding: 16px;
+  padding: 16px 16px 9px;
   border-radius: 25px;
 }
 
@@ -50,7 +50,7 @@ body {
 .card p {
   color: var(--grayish-blue);
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
   width: 256px;
   padding: 0 12px;
 }
